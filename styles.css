@@ -11,23 +11,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-pared-cemento_76539-221.jpg?size=626&ext=jpg);
+  height:100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 main {
   text-align: center;
-  background-color:lightgrey;
-  height: 100vh;
+  /* background-color:lightgrey; */
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-elegante-textura-blanca_23-2148438405.jpg?size=626&ext=jpg);
+  background-size: cover;
+  width: 40rem;
+  height:30rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-shadow:0px 0px 16px 14px #484747;
+  border-radius: 5px;
 }
+
 .space {
   padding: 3rem 6rem;
 }
+
 .key-container {
   height: 12rem;
 }
 kbd {
-  border-bottom: 5px solid rgb(160, 158, 158);
+  border-bottom: 7px solid rgb(171, 168, 168);
   border-left:1.5px solid rgb(141, 136, 136);
   border-right: 1px solid rgb(146, 140, 140);
   box-shadow: -5px 5px 10px 5px grey;
@@ -36,9 +52,9 @@ kbd {
   padding: 2rem 3rem;
   margin: 1rem;
   display: inline-block;
-  color: var(--text-color);
+  color: rgb(105, 104, 104);
   font-size: 5rem;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.938);
   
 }
 
@@ -49,12 +65,29 @@ kbd {
 
 }
 
+
+
+
 h1, h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: var(--text-color-primary);
-  
+font-family: 'Raleway', sans-serif;
+font-style: italic;
+color: rgb(232, 232, 232) ;
+text-shadow: 3px 1px 2px #5d5d5d;
+font-weight: 300;
+
+}
+#keycode {
+  color: rgb(105, 104, 104);
+  display: inline-block;
+  min-width: 3rem;
+  text-shadow: none;
 }
 
-h2 {
-  color: black;
+h1 {
+  font-style: italic;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  color: rgb(158, 158, 158) ;
+
 }
+
